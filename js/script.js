@@ -35,9 +35,8 @@ async function displayPopularMovies() {
         </p>
       </div>
       `;
+    document.querySelector("#popular-movies").appendChild(div);
   });
-
-  document.querySelector("#popular-movies").appendChild(div);
 }
 
 // Fetch data from TMDB API
